@@ -12,9 +12,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: The Metamorphosis
 
-description: Stylish Jekyll Theme
+description: A personal blog where the author writes about his findings in the journey through this life.
 author:
   name: Khoa Dinh
   email: khoadinh290@gmail.com
@@ -22,7 +22,7 @@ author:
   twitter: khoadinh290
   pinterest: khoadinh290
   linkedin: khoadinh290
-  bio: Your stylish, minimalist theme!  
+  bio: Full-stack developer and student of life
 
 rss_path: feed.xml
 categories_path: categories.html

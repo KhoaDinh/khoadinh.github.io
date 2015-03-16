@@ -1,6 +1,6 @@
-# Khoa Dinh - Blog
+# Khoa Dinh's Blog
 
-Powered by GitHub, Jekyll and Poole
+My place to ramble about my journey on this place called Earth. It will most probably be about programming, books, some traveling and reflections here and there. Powered by GitHub, Jekyll and Debyl 
 
 -----
 
