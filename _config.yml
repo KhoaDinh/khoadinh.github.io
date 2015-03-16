@@ -1,19 +1,31 @@
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Setup
-title:            Khoa Dinh
-tagline:          Blog
-url:              http://khoadinh.github.io
-paginate:         1
-baseurl:          /
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+description: Stylish Jekyll Theme
 author:
-  name:           Khoa Dinh
-  url:            https://twitter.com/khoadinh290
-  email:          khoadinh290@gmail.com
+  name: Khoa Dinh
+  email: khoadinh290@gmail.com
+  github: khoadinh
+  twitter: khoadinh290
+  pinterest: khoadinh290
+  linkedin: khoadinh290
+  bio: Your stylish, minimalist theme!  
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/khoadinh/khoadinh.github.io
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
