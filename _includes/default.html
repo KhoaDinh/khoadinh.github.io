@@ -15,7 +15,7 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
+ 
 	<!-- Le styles -->
 	<link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -44,22 +44,22 @@
 				<span class="icon-bar"></span>
 			</button>
 			{% if site.author.github %}
-			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}">
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}" target="_blank">
 				<i class="fa fa-github"></i>
 			</a>
 			{% endif %}
 			{% if site.author.twitter %}
-			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}">
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}" target="_blank">
 				<i class="fa fa-twitter"></i>
 			</a>
 			{% endif %}
 			{% if site.author.email %}
-			<a type="button" class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
+			<a type="button" class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}" target="_blank">
 				<i class="fa fa-envelope"></i>
 			</a>
 			{% endif %}
-			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
-				<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
+			<a class="navbar-brand" href="{{ site.BASE_PATH }}/{{ site.about_path }}">
+				<img src="{{ site.BASE_PATH }}/assets/media/avatar.jpg" class="img-circle" />
 				{{ site.title }}
 			</a>
 		</div>
@@ -81,6 +81,7 @@
 		</button>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.about_path }}"><i class="fa fa-user"></i>About</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
 			<li class="divider"></li>

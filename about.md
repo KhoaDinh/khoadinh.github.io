@@ -3,8 +3,8 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  About page.
-</p>
+## A few things about me
 
-Thanks for reading!
+I'm a developer at [Precio](http://www.precio.se)
+
+I'm also a student of [life](http://en.wikipedia.org/wiki/Philosophy_of_life) 

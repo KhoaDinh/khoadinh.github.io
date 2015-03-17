@@ -25,7 +25,8 @@ author:
   bio: Full-stack developer and student of life
 
 rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+about_path: about
+categories_path: categories
+tags_path: tags
 
 BASE_PATH:
