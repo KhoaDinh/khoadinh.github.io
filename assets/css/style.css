@@ -190,3 +190,7 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+.img-fluid-60 {
+	max-width: 60%;
+}
+
