@@ -15,4 +15,18 @@ Quisque auctor hendrerit pellentesque. Etiam laoreet, libero quis fringilla plac
 
 Sed mollis sodales urna ut faucibus. Sed vitae arcu lacinia, lobortis mauris id, dapibus ligula. Nunc a sem libero. Nunc dictum bibendum enim ac bibendum. Ut id erat tristique, consequat lorem et, consectetur libero. Cras facilisis sit amet nulla nec suscipit. Quisque mollis lorem facilisis risus aliquet tincidunt eu id enim.
 
+{% highlight yaml %} 
+	getFilteredList: function(listsCollection, filteredProp) {
+		return listsCollection.map(function(list) {
+			return {
+				id 	  : list.id,
+				name  : list.name,
+				items : list.items.getElementsWith(filteredProp, true)
+			}
+		}).filter(function(list) {
+			return list.items.length > 0;
+		});
+	}
+{% endhighlight %}
+
 Cras faucibus enim accumsan est suscipit gravida a nec turpis. Duis ac cursus justo. Aenean finibus, ligula vitae pretium feugiat, mauris lectus mattis dolor, eu commodo arcu massa sed neque. Mauris pulvinar eu quam vitae pharetra. Curabitur sit amet commodo nibh. Mauris a iaculis odio. Maecenas vitae leo sed metus tempor tempor.
