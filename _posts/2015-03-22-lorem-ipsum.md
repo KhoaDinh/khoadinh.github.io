@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Lorem ipsum dolor sit amet
+tags:
+- jekyll
+- architecture
+- javascript
+- craftsmanship
 ---
 
 > Morbi a iaculis ipsum. Nullam semper massa consequat, porttitor mi sed, euismod quam. Mauris id elementum est. Donec blandit ornare libero, eget fermentum ipsum cursus a. Praesent ut molestie augue. In id lobortis purus. Cras consequat convallis magna, et pharetra quam mattis vel.
@@ -15,7 +20,7 @@ Quisque auctor hendrerit pellentesque. Etiam laoreet, libero quis fringilla plac
 
 Sed mollis sodales urna ut faucibus. Sed vitae arcu lacinia, lobortis mauris id, dapibus ligula. Nunc a sem libero. Nunc dictum bibendum enim ac bibendum. Ut id erat tristique, consequat lorem et, consectetur libero. Cras facilisis sit amet nulla nec suscipit. Quisque mollis lorem facilisis risus aliquet tincidunt eu id enim.
 
-{% highlight yaml %} 
+{% highlight js %} 
 	getFilteredList: function(listsCollection, filteredProp) {
 		return listsCollection.map(function(list) {
 			return {
