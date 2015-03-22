@@ -14,6 +14,7 @@ defaults:
     values:
       title: The Metamorphosis
 
+title: The Metamorphosis
 description: A personal blog where the author writes about his findings in the journey through this life.
 author:
   name: Khoa Dinh
@@ -22,7 +23,12 @@ author:
   twitter: khoadinh290
   pinterest: khoadinh290
   linkedin: khoadinh290
-  bio: Full-stack developer and student of life
+  bio: 
+  - Full-stack developer
+  - Software Architecture
+  - Scalability
+  - Go
+  - Franz Kafka
 
 rss_path: feed.xml
 about_path: about
