@@ -58,7 +58,7 @@
 				<i class="fa fa-envelope"></i>
 			</a>
 			{% endif %}
-			<a class="navbar-brand" href="{{ site.BASE_PATH }}/{{ site.about_path }}">
+			<a class="navbar-brand" href="{{ site.BASE_PATH }}">
 				<img src="{{ site.BASE_PATH }}/assets/media/avatar.jpg" class="img-circle" />
 				{{ site.title }}
 			</a>
@@ -99,7 +99,7 @@
 		<footer>
 			<hr/>
 			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll.
 			</p>
 		</footer>
 	</div>
@@ -107,5 +107,8 @@
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+
+	{% include comments_count.html %}
+	{% include google_analytics.html %}
 </body>
 </html>

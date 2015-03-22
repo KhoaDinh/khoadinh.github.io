@@ -1,6 +1,6 @@
 <! -- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/{{ site.about_path }}">
+	<a href="{{ site.BASE_PATH }}">
 		<img src="{{ site.BASE_PATH }}/assets/media/avatar.jpg" class="img-circle" />
 	</a>
 	<h3 class="title">
@@ -13,6 +13,10 @@
 	{{ site.author.bio }}
 </div>
 {% endif %}
+
+<div id="about-link" class="text-center">
+	<a href="{{ site.BASE_PATH }}/{{ site.about_path }}">About me</a>
+</div>
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
