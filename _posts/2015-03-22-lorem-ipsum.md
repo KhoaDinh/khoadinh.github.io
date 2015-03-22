@@ -3,9 +3,6 @@ layout: post
 title: Lorem ipsum dolor sit amet
 ---
 
-## Lorem ipsum dolor sit amet
-===============================
-
 > Morbi a iaculis ipsum. Nullam semper massa consequat, porttitor mi sed, euismod quam. Mauris id elementum est. Donec blandit ornare libero, eget fermentum ipsum cursus a. Praesent ut molestie augue. In id lobortis purus. Cras consequat convallis magna, et pharetra quam mattis vel.
 
 ### Etiam tristique at tortor non tempor
