@@ -137,6 +137,12 @@ article.home h4 a:hover {
   float: left;
   margin-right: 20px;
 }
+.author-image-medium {
+	max-width: 80px;
+}
+.author-image-small {
+	max-width: 35px;
+}
 
 footer {
 	padding-top: 15px;
