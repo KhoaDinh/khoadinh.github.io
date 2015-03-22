@@ -16,6 +16,8 @@
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
 	 </span>
+	 <a class="comments-count" href="{{ site.BASE_PATH }}{{ post.url }}#disqus_thread">Link</a>
+	 
 	  <div class="article_body">
 	  {{ content }}
 	  </div>
