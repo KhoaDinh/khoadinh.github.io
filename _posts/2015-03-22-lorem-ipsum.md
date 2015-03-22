@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Lorem ipsum dolor sit amet
+category:
+- Misc
 tags:
 - jekyll
 - architecture
