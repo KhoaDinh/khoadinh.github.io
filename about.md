@@ -4,7 +4,7 @@ title: About Me
 ---
 
 <p>
-	<img src="{{ site.BASE_PATH }}/assets/media/about.jpg" alt="Picture of me" style="max-width: 700px">
+	<img src="{{ site.BASE_PATH }}/assets/media/about.jpg" alt="Picture of me">
 </p>
 
 Hi, My name is Khoa. 
