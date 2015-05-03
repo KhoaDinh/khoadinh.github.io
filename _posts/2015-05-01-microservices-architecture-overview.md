@@ -18,9 +18,9 @@ There are two reasons behind microservices gaining popularity. First, as softwar
 
 ### How it works
 
-The best way to explain microservices is to compare it to the old monolithic way of building applications, so lets have a quick recap.
+The best way to explain microservices is to compare it to the old monolithic way of building applications, so let's have a quick recap.
 
-In the traditional three-tiers design, the server-side application takes the role of the middle layer, processing business logic and serving data from database tier to clients (web browers, mobile apps, internet of things, etc.). The application is written as a single, unified code base and everything run in the same process. Scaling is done by replicating the same monolithic application on multiple servers.
+In the traditional three-tier design, the server-side application takes the role of the middle layer, processing business logic and serving data from database tier to clients (web browers, mobile apps, internet of things, etc.). The application is written as a single, unified code base and everything run in the same process. Scaling is done by replicating the same monolithic application on multiple servers.
 
 In microservices architecture, the monolithic is decomposed into multiple small, granular, **_independently deployable_** services. The fact that these services are independently deployable is very important, it enables some of microservices most important benefits. These services can be developed in parallel by different teams, using different technology stacks that are best suited for their purposes. Also, as they are independently deployed, they can be independently scaled. For example, a service that is CPU-heavy but doesn't need much memory can be scaled on servers equipped with powerful processor but lower memory. We can scale only the services we want, not all of them.
 
@@ -57,7 +57,7 @@ Microservices architecture, on the other hand, is much more flexible and resilie
 
 * The services themselves are very simple, focusing on doing only one thing well so they're easier to test and ensure a higher quality. 
 
-* Each service can be built with the best technologies and tools, allowing [polyglot persistence](http://martinfowler.com/bliki/PolyglotPersistence.html) and such. You don't have to be stuck with an early choice of technology for the rest of the project. 
+* Each service can be built with the best suited technologies and tools, allowing [polyglot persistence](http://martinfowler.com/bliki/PolyglotPersistence.html) and such. You don't have to be stuck with an early choice of technology for the rest of the project. 
 
 * Multiple developers and teams can deliver independently under this architecture. This is great for continuous delivery, allowing frequent releases while keeping the rest of the system stable. 
 
