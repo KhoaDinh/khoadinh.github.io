@@ -3,7 +3,7 @@ layout: post
 title: An Overview of Microservices Architecture
 ---
 
-An introduction to the trending Microservices Archicture. In this post we will discuss about how microservices works, what is the benefits and what should we look out for when implement it.
+An introduction to the trending Microservices Archicture. In this post we will discuss about how microservices works, what are the benefits and what should we look out for when implement it.
 
 ### What is Microservices Architecture?
 
