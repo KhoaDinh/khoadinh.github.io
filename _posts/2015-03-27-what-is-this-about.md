@@ -17,6 +17,7 @@ Well, this blog is mainly a place for [me]({{ site.BASE_PATH}}/{{ site.about_pat
 ### What can you expect to find here?
 
 Most of the contents will be about web development and programming. Here are some typical posts you will see in this blog:  
+- [Overview of Microservices Architecture]({{ site.BASE_PATH }}/2015/05/01/microservices-architecture-overview.html)  
 - Polyglot persistence - when should we use NoSQL?  
 - Applying Functional Reactive Programming to large JavaScript projects  
 - Building isomorphic JavaScript app with NodeJS  
