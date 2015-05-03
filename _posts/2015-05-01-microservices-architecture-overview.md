@@ -24,10 +24,12 @@ In the traditional three-tiers design, the server-side application takes the rol
 
 In microservices architecture, the monolithic is decomposed into multiple small, granular, **_independently deployable_** services. The fact that these services are independently deployable is very important, it enables some of microservices most important benefits. These services can be developed in parallel by different teams, using different technology stacks that are best suited for their purposes. Also, as they are independently deployed, they can be independently scaled. For example, a service that is CPU-heavy but doesn't need much memory can be scaled on servers equiped with powerful processor but lower memory. We can scale only the services we want, not all of them.
 
+<br/>
 <p align="center">
-	<img src="{{ site.BASE_PATH }}/assets/media/scale cube.png" alt="scale cube" style="max-height: 250px"> <br/>
+	<img src="{{ site.BASE_PATH }}/assets/media/scale_cube.png" alt="scale cube" style="max-height: 250px"> <br/>
 	<span class="img-caption">The Scale Cube &mdash; from the book <a href="http://theartofscalability.com">The Art of Scaling </a></span>
 </p>
+<br/>
 
 If the services are so independent and isolated, how should we share code between them? Well, this is a question of finding the the balance point. While sharing code between services allows reusing existing functionalities and keeping the DRY principle, it also increases the coupling of the services. One solution is to share only the technical libraries, and the common functionalities can be made into stand-alone services that other services can call to. That leads us to the next thing, communication between services.
 
@@ -35,13 +37,14 @@ Communication between these microservices can be done in two main ways, HTTP and
 
 Finally, as the services are very granular, client applications usually need to interact with multiple services to get the data they need. To allow changes in the services without effecting the clients, an [API Gateway](http://microservices.io/patterns/apigateway.html) is used. The API Gateway is an abstract layer that hides away all the microservices, leaving a single endpoint for clients to communicate. Requests coming to the gateway will be proxied/routed to the appropriate services. The gateway can also helps us to easily monitor the usage of the services.
 
+<br/>
 <div class="row">
 	<div class="col-md-6" align="center">
-		<img src="{{ site.BASE_PATH }}/assets/media/monolithic architecture.png" alt="monolithic architecture" style="max-height: 400px"><br/>
+		<img src="{{ site.BASE_PATH }}/assets/media/monolithic_architecture.png" alt="monolithic architecture" style="max-height: 400px"><br/>
 		<span class="img-caption" style="margin-left: -25px">Monolithic Architecture</span>
 	</div>
 	<div class="col-md-6" align="center">
-		<img src="{{ site.BASE_PATH }}/assets/media/microservices architecture.png" alt="monolithic architecture" style="max-height: 400px"><br/>
+		<img src="{{ site.BASE_PATH }}/assets/media/microservices_architecture.png" alt="monolithic architecture" style="max-height: 400px"><br/>
 		<span class="img-caption" style="margin-left: -25px">Microservices Architecture</span>
 	</div>
 </div>
