@@ -40,11 +40,11 @@ Finally, as the services are very granular, client applications usually need to 
 <br>
 <div class="row">
 	<div class="col-md-6" align="center">
-		<img src="{{ site.BASE_PATH }}/assets/media/monolithic_architecture.png" alt="monolithic architecture" style="max-height: 400px"><br>
+		<img src="{{ site.BASE_PATH }}/assets/media/monolithic_architecture_diagram.png" alt="monolithic architecture" style="max-height: 400px"><br>
 		<span class="img-caption" style="margin-left: -25px">Monolithic Architecture</span>
 	</div>
 	<div class="col-md-6" align="center">
-		<img src="{{ site.BASE_PATH }}/assets/media/microservices_architecture.png" alt="monolithic architecture" style="max-height: 400px"><br>
+		<img src="{{ site.BASE_PATH }}/assets/media/microservices_architecture_diagram.png" alt="monolithic architecture" style="max-height: 400px"><br>
 		<span class="img-caption" style="margin-left: -25px">Microservices Architecture</span>
 	</div>
 </div>
