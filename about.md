@@ -7,6 +7,7 @@ title: About Me
 	<img src="{{ site.BASE_PATH }}/assets/media/about.jpg" alt="Picture of me">
 </p>
 
+
 Hi, My name is Khoa. 
 
 I am a developer with a passion for beautifully crafted softwares. Currently I work as a senior developer at [Precio](http://www.precio.se/en) where I work mainly with .NET technologies. On my free time, I love to play around with open source stuffs and practice my programming skill. I live in Ho Chi Minh City, Vietnam.
